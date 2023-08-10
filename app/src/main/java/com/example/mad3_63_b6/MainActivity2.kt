@@ -14,7 +14,8 @@ class MainActivity2 : AppCompatActivity() {
         setContentView(R.layout.activity_main2)
         val intent=intent //here we get intent from main activity
         val bundle:String?=intent.getStringExtra("EXTRAMESSAGE")
-        findViewById(R.id.import_text)
+        text_header=findViewById(R.id.import_text)
+        text_header.text=
     }
 
 }
