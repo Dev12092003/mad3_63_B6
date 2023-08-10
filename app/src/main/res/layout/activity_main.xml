@@ -23,7 +23,7 @@
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
         android:id="@+id/Button_main"
-        android:onClick="SecondActivitycall"/>
+        android:onClick="SecondActivity"/>
 
     <EditText
         android:layout_width="wrap_content"
@@ -32,6 +32,6 @@
         android:layout_toStartOf="@+id/Button_main"
         android:layout_alignParentBottom="true"
         android:hint="Enter oyur message"
-
+        android:id="@+id/edit_text"
         />
 </RelativeLayout>
